@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*Admin Left Side Navigation Bar*/  
+.adminnav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/**/  
+.adminnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.adminnav h3{
+  padding: 1px 8px 1px 6px;
+  margin: 30px 0 20px 0;
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffffff;
+  display: block;
+}
+.adminnav a:hover {
+  color: #f1f1f1;
+  background-color: green;
+}
+
+/* Admin Booking Page */
+.adminBooking {
+  margin-left: 250px; 
+  font-size: 30px; 
+  padding: 0px 10px;
+}
+
+.row-abo1 {
+  display: flex;
+  margin: 20px 20px 40px 20px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+/* Scroll bar CSS */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Booking table CSS */
+.adminBooking table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  overflow-x: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.adminBooking tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.adminBooking tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  table-layout: auto;
+  width: fit-content;
+}
+
+/* .button1 {
+  background-color: #db4a39;
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 6px 2px;
+  cursor: pointer;
+  
+} */
+
+/* .button1 {
+border-radius: 8px;
+} */
+
+/* .button2 {
+  display: inline-block;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: auto;
+} */
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ 
+* {
+    border-style: box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+	
+}
+
+
+  
+  li, a, button {
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: beige;
+      text-decoration: none;
+  }
+  
+  
+  header{
+    position: fixed;
+	justify-content: space-between;
+    display: flex;
+	padding: 30px 10%;
+    align-items: center;
+	position: sticky;
+    width: 100%;
+    height: 25%;
+    background-color: black;
+   
+}
+
+
+.color{
+    color: antiquewhite;
+    cursor: pointer; 
+    font-family: Montserrat, sans-serif;
+}
+
+/* Navigation bar links */
+.Links{
+    list-style: none;
+}
+
+.Links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.Links li, a {
+    transition: all 0.3s ease 0s;
+}
+
+.Links li a:hover{
+    color:#0088a9;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(0, 136, 169);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: auto;
+    height: auto;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Footer */
+.footer-text input[type=text] {
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  } 
+
+.footer {
+    display: flex;
+	z-index:99;
+	bottom:0;
+	left:0;
+	margin-bottom:0;
+	padding: 0 100px;
+    width: 100%;
+    padding: 100px 5%;
+    justify-content: space-between;
+    position: flex;
+	background-image: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+  
+
+
+.footer div{
+    text-align: center;
+}
+
+.col-1 {
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* hyperlinks transitions */
+.col-1 a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.col-1 a{
+    transition: all 0.3s ease 0s;
+}
+
+.col-1 a:hover{
+    color:#0088a9;
+}

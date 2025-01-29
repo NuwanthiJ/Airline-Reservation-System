@@ -1,0 +1,120 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+ 
+ 
+  
+  .adminnav h3{
+    padding: 1px 8px 1px 6px;
+    margin: 30px 0 20px 0;
+    text-decoration: none;
+    font-size: 35px;
+    color: #ffffff;
+    display: block;
+  }
+  .adminnav a:hover {
+    color: #f1f1f1;
+    background-color: green;
+  }
+  
+  .adminSchedule {
+    margin-left: 250px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+    overflow-x:auto;
+  }
+  
+  .row-as1 {
+    display: flex;
+    margin: 20px 20px 40px 20px;
+    height: 50px;
+    justify-content: space-between;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  table {
+    /*table-layout: auto;*/
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    overflow-x: auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    table-layout: auto;
+    width: fit-content;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .button1 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    min-width: 60px;
+  }
+  
+  .button2 {
+    display: inline-block;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: auto;
+  }
+  
+  .button3 {
+    background-color: rgb(113, 197, 252);
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    min-width: 60px;
+  }
+  
+  

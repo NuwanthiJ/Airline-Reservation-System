@@ -1,0 +1,143 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .row-as1 {
+    display: flex;
+    margin: 20px 20px 40px 20px;
+    height: 50px;
+    justify-content: space-between;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  table {
+    /*table-layout: auto;*/
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 15px;
+    overflow-x: auto;
+    background-color: lightblue;
+  }
+  
+  th, td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    table-layout: auto;
+    width: fit-content;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .button1 {
+    background-color: red;
+    border: none;
+    color:white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    min-width: 60px;
+  }
+  
+ 
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: lightblue;
+  }
+  
+  .navbar-user {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 87px;
+    border-radius: 6px;
+  }
+
+  
+  .navbar-user a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 75px;
+    text-decoration: none;
+  }
+
+  
+  .navbar-user a:hover {
+    background-color:darkblue;
+  }
+  
+  
+  .usercard {
+    background-color:black;
+    box-shadow: 20px 20px 20px 20px rgba(73, 74, 75, 0.2);
+    transition: 0.3s;
+    width: 900px;
+    height: 650px;
+    border-radius: 10px;
+    margin: 50px 300px 50px 330px;
+    padding: 20px;
+
+  }
+ 
+
+   
+ .text-align{
+          
+   text-align: center;
+   /*font-family: 'Times New Roman', Times, serif;*/
+   font-family: 'Abril Fatface', serif;
+
+  } 
+
+  .btn {
+    background-color:darkblue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+
+
+        

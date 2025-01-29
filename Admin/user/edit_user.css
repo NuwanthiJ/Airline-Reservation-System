@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+input[type=text],[type=email]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    padding: 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+input[type=submit]:hover{
+    background-color: rgb(30, 106, 125);
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto; /* This will horizontally center the container */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.adminUsers h3{
+    color: black;
+    cursor: default;
+    font-size:xx-large; 
+    font-family: Montserrat, sans-serif;
+}
+
+.adminUsers label, input{
+    color: black;
+    cursor: default;
+    font-size:large; 
+    font-family: Montserrat, sans-serif;
+}

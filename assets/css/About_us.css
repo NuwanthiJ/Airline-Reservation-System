@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.about_us_body{
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #131313;
+}
+
+.about_us_color{ 
+    color: antiquewhite;
+    cursor: default; 
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(19, 19, 19, 1);
+}
+.headpicture img{
+    max-width: 70%;
+}
+
+.about_us_body .about_us_color h1, h2{
+    padding-left: 8%;
+    text-align: justify;
+}
+.about_us_body .about_us_color p{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}

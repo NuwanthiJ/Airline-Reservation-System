@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.privacy_body{
+    min-width: 500px;
+    margin: 0 auto; /* This will horizontally center the container */
+    padding: 20px;
+    background-color: #131313;
+}
+
+.P_fieldset_color{ 
+    color: antiquewhite;
+    cursor: default; 
+    font-family: Montserrat, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+h1{
+    color: antiquewhite;
+    cursor: default;
+    font-family: Montserrat, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.P_fieldset_color p{
+    color: rgb(106, 109, 120);
+    padding: 10px;
+}

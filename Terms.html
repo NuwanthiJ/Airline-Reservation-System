@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+	<style>
+		
+
+body{
+	background:black;
+	align-items:center;
+}
+
+
+#accordion{
+	margin:100px auto;
+	width:600px;
+}
+#accordion li{
+	list-style:none;
+	width:100%;
+	margin-bottom:10px;
+	background:#ffff;
+	padding:10px;
+	border-radius:4px;
+}
+#accordion li label{
+	padding:10px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	font-size:18px;
+	font-weight:500;
+	cursor:pointer;
+	color:#c20000;
+}
+#accordion li label span{
+	transform:rotate(90deg);
+	font-size:22px;
+	color:#333;
+}
+#accordion label+input[type="radio"]{
+	display:none;
+}
+#accordion .content{
+	padding:0 10px;
+	line-height:26px;
+	max-height:0;
+	overflow:hidden;
+	transition:max-height 0.5s;
+}
+#accordion label+input[type="radio"]:checked +.content{
+	max-height:400px;
+}
+.Scroll-bar{
+    height:800px;
+	width:800px;
+	border:1px solid gray;
+	overflow:auto;
+}
+.field{
+	width:800px;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	background-color:white;
+	
+}
+.leg{
+	color:gray;
+	font-style:bold;
+	font-size:30px;
+}
+
+	
+	</style>
+	
+</head>
+
+
+<body style="background-color:black;">
+   
+   <center>
+	
+
+
+	<div class="Scroll-bar" style="background-color: lightblue;"><h1 style="text-align: center;font-size: 50px;">Our Terms And Conditions</h1>
+	<ol id="accordion">
+	   <li>
+		
+			<label for="first">Formation of contract<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="first" checked>
+       
+		<div class="content">
+		<p>
+			The Airline makes an offer to provide transportation services to the passenger. This offer is usually communicated through various channels, such as the airline's website, ticketing agents, or other marketing materials. The offer may include details such as flight destinations, schedules, and fares.<br><br>
+
+			The passenger accepts the airline's offer by purchasing a ticket, either online or through a ticketing agent. This acceptance creates a contractual agreement between the passenger and the airline.<br><br>
+
+			In exchange for the transportation services, the passenger pays the airline the agreed-upon fare. This financial consideration is an essential element of the contract.<br><br>
+
+			Airlines typically have a set of terms and conditions that govern the contractual relationship between the passenger and the airline. These terms and conditions may be provided to the passenger at the time of booking or made available on the airline's website. <br><br>
+		</p>
+		
+		</div>
+		</li>
+	    
+		<li>
+			<label for="second">Limitations of use<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="second">
+       
+		<div class="content">
+		<p>This website may not be used for any prohibited or unlawful purposes.<br>
+          The online booking facility may not be used to make any fraudulent, speculative or unauthorized reservation.<br>
+          Airline reserves the right to cancel any booking without further reference to the user in the event that Airline, in its sole discretion decides that the user is in breach of any of these Online Booking Terms of Use. <br><br></p>
+		</div>
+		 </li>
+		
+		<li>
+			<label for="third">Use of the Airline Ticket Reservation site<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="third">
+       
+		<div class="content">
+		<p>Access the Website.Open a web browser and go to the website of the airline ticket reservation site you want to use.<br>
+
+          Search for Flights. On the homepage, you'll usually find a search form where you can enter your travel details. Fill in the required information, including your departure and destination airports, travel dates, and the number of passengers.<br>
+
+
+
+         Select Your Flights. Review the available flights and choose the ones that best fit your preferences. Consider factors like price, travel time, layovers, and airline reputation.<br>
+
+		<br><br></p>
+		</div>
+		 </li>
+		
+		<li>
+			<label for="fourth">Booking Rules<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="fourth">
+       
+		<div class="content">
+		<p>Ticket Reservation,To book a flight, you typically need to make a reservation by providing your travel details, including departure and arrival cities, travel dates, and the number of passengers. This can usually be done through the airline's website, mobile app, or by contacting their customer service.<br>
+
+        Airlines offer different ticket types, such as economy, premium economy, business class, and first class. Each ticket type has its own set of rules, including baggage allowances, refundability, change flexibility, and in-flight services. Higher classes often come with additional benefits and amenities.<br>
+
+		Booking has Fare Conditions. Fares can have specific conditions attached to them. These conditions may include minimum stay requirements, maximum stay limitations, advance purchase requirements, and specific travel dates or blackout periods. It's important to review the fare conditions before booking to understand any restrictions.<br>
+
+		Airlines use dynamic pricing, where ticket prices can vary based on factors such as demand, availability, and time of booking. Prices tend to increase closer to the departure date, so booking in advance can often result in lower fares.<br>
+
+		It has Ticket Payment. When booking a flight, you'll need to provide payment information. Airlines accept various payment methods, including credit cards, debit cards, and sometimes alternative options like PayPal. Some airlines may offer installment plans or payment options like "buy now, pay later."<br>
+
+		Airline has baggage Allowance.Airlines typically have specific baggage policies regarding the size, weight, and number of bags allowed. These rules can vary depending on the airline, ticket type, and destination. Exceeding the baggage limits may result in additional fees or the need to check excess baggage.<br><br></p>
+		</div>
+		 </li>
+		 
+		 
+		<li>
+			<label for="fifth">Refunds and Cancellations<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="fifth">
+       
+		<div class="content">
+		<p>Refunds for cancellations by the airline.If the airline cancels your flight, they are usually obligated to provide you with a full refund of the ticket price. This includes both refundable and non-refundable tickets.<br>
+
+			Refunds for cancellations by the passenger. If you decide to cancel your flight, whether it's a refundable or non-refundable ticket, the refund policy will depend on the type of ticket you purchased and the airline's specific rules. Non-refundable tickets typically do not qualify for a full refund.<br>
+
+			Refundable tickets are generally more expensive than non-refundable ones, but they offer the flexibility to cancel your flight and receive a full refund, or sometimes a partial refund, depending on the airline's policy.<br>
+
+			Change and cancellation fees. Many airlines charge change or cancellation fees, especially for non-refundable tickets. These fees can change.<br><br></p>
+		</div>
+		 </li>
+		 
+		 <li>
+			<label for="sixth">Travel Requirements<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="sixth">
+       
+		<div class="content">
+		<p>we need valid passport and visa. You will need a valid passport to travel internationally. Make sure your passport is not expired and has sufficient validity beyond your intended travel dates. Some countries may require a certain amount of validity remaining on your passport, typically six months.<br>
+
+		Depending on your nationality and the destination country, you may need a visa to enter. Check the visa requirements of your destination country well in advance and apply for a visa if necessary. Some countries offer visa-free entry or visa-on-arrival for certain nationalities.<br><br></p>
+		</div>
+		 </li>
+		 
+		 <li>
+			<label for="seventh">Information Security<span> &#x3e; </span></label>
+			<input type="radio"name="accordion" id="seventh">
+       
+		<div class="content">
+		<p> Our Airline will take all reasonable measures to ensure that information our passengers transmit to Airlines using this online booking facility will remain confidential and protected from unauthorized access. However we will not be liable for unauthorized access to that information.<br><br></p>
+		</div>
+		 </li>
+		 
+	</div>
+		 
+		</fieldset>
+		</center>
+		
+</body>
+</html>

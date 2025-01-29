@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*Admin Left Side Navigation Bar*/  
+.adminnav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.adminnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.adminnav h3{
+  padding: 1px 8px 1px 6px;
+  margin: 30px 0 20px 0;
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffffff;
+  display: block;
+}
+.adminnav a:hover {
+  color: #f1f1f1;
+  background-color: green;
+}
+
+/* admin profile card */
+.adminProfile {
+  margin-left: 250px; 
+  font-size: 30px; 
+  padding: 0px 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #33363b;
+}
+
+p{
+  font-size: 14px;
+  color: #868d9b;
+}
+
+.profilecard-ap {
+  box-shadow: 8px 10px 10px 8px rgba(0.2,0.2,0.2,0.2);
+  width: 75%;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 30px;
+}
+
+.card_profile_img {
+  width: 150px;
+  height: 150px;
+  background-color: #868d9b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ffffff;
+  border-radius: 120px;
+  margin: 0 auto;
+  margin-top: -60px;
+
+}
+
+.card_profile_img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+
+.card_background_img {
+  width: 100%;
+  height: 180px;
+  background-color: #e1e7ed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.user_details h3 {
+  margin: 30px;
+  text-align: center;
+}
+
+/* admin profile details form */
+.profilecard-ap .form-ap{
+  margin: 50px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  
+}
+
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: medium;
+  font-size: 20px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row-ap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+

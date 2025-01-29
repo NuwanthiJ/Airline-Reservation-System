@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*Admin Left Side Navigation Bar*/  
+  .adminnav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+/**/  
+  .adminnav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .adminnav h3{
+    padding: 1px 8px 1px 6px;
+    margin: 30px 0 20px 0;
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+  }
+  .adminnav a:hover {
+    color: #f1f1f1;
+    background-color: green;
+  }
+
+  .adminUsers {
+    margin-left: 250px; 
+    font-size: 30px; 
+    padding: 0px 10px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .button1 {
+    background-color: #db4a39;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 2px;
+    cursor: pointer;
+    
+  }
+  
+  .button1 {
+  border-radius: 8px;
+  }

@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(249, 248, 248);
+  }
+  
+  .navbar-user {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 5%;
+    border-radius: 6px;
+  }
+  
+  .navbar-user a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 80px;
+    text-decoration: none;
+  } 
+  
+  .navbar-user a:hover {
+    background-color:darkblue;
+  }
+  
+  .schedulecard {
+    background-color:rgb(125, 212, 241);
+    box-shadow: 20px 20px 20px 20px rgba(73, 74, 75, 0.2);
+    transition: 0.3s;
+    width: 1300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 50px 87px;
+    padding: 50px;
+  }
+
+  
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+table {
+  /*table-layout: auto;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #0e0c0c;
+  font-size: 20px;
+  overflow-x: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  table-layout: auto;
+  width: fit-content;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("download.jpg");
+  min-height: 200px;
+  border-radius: 10px;
+  height: 300px;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+body {
+  font-family: 'Rye';font-size: 22px;
+  
+}
+
+.button2 {
+  display: inline-block;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: auto;
+}
+
+

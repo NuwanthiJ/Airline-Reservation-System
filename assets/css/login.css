@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    border-style: box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+/* MAin html tags*/
+
+li, a, button {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(19, 19, 19, 1);
+    box-shadow: #fff;
+}
+ 
+/*logo*/
+.logo{
+    size: 20px;
+}
+
+.color{
+    color: antiquewhite;
+    cursor: pointer; 
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(19, 19, 19, 1);
+}
+
+/* Header */
+.Links{
+    list-style: none;
+}
+
+.Links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.Links li, a {
+    transition: all 0.3s ease 0s;
+}
+
+.Links li a:hover{
+    color:#0088a9;
+}
+
+/*buttons*/
+button {
+    padding: 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.submit {
+    padding: 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: antiquewhite;
+    cursor: pointer; 
+    font-family: Montserrat, sans-serif;
+}
+
+.submit:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/*form*/
+form{
+    max-width: 400px;
+    margin: 0 auto; /* This will horizontally center the container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/*social media buttons*/
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-login p {
+    margin-bottom: 10px;
+  }
+  
+  .social-login .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5998; /* Facebook Blue */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-login .btn-gmail {
+    background-color: #db4a39; /* Gmail Red */
+  }
+  
+  .social-login .btn:hover {
+    background-color: #2d4373; /* Facebook Dark Blue */
+  }
+
+  .social-login .btn-gmail:hover {
+    background-color: #8d3b32; /* Gmail Red */
+  }
+
+  input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
